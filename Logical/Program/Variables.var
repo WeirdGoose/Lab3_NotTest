@@ -1,0 +1,11 @@
+VAR
+	coil_pwm_value : INT := 0;
+	coil_powered : BOOL := FALSE;
+	axis_X : FB_Axis := (0);
+	pwm_period : UINT := 0;
+	fb_controller : FB_controller := (0);
+	XNegHwEnd : REAL := 0.0;
+	XPosHwEnd : REAL := 0.0;
+	enable : BOOL := FALSE;
+	fb_motor : FB_Motor := (0);
+END_VAR
